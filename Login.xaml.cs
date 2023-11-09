@@ -15,24 +15,13 @@ using System.Windows.Shapes;
 namespace Internet_Shop
 {
     /// <summary>
-    /// Логика взаимодействия для Registration.xaml
+    /// Логика взаимодействия для Login.xaml
     /// </summary>
-    public partial class Registration : Window
+    public partial class Login : Window
     {
-        public Registration()
+        public Login()
         {
             InitializeComponent();
-        }
-        private void Back_button (object sender, RoutedEventArgs e)
-        {
-            
-            MainWindow internet_Shop = new MainWindow();
-            internet_Shop.Show();
-            this.Close();
-        }
-        private void Login_button (object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -18,14 +18,19 @@
         </Grid.ColumnDefinitions>
         
         <GroupBox Header="Поле регистрации" Grid.ColumnSpan="2">
+            
             <Grid>
-                <StackPanel>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1" >
                     <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2"></TextBox>
                     <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2"></TextBox>
                     <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2"></TextBox>
                     <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2"></TextBox>
                     <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2"></TextBox>
-                    <Button x:Name="Registration" Content="Зарегестрироваться и войти" Margin="20 10 20 0" Width="auto" Height="30"></Button>
+                    <Button x:Name="Registration" Content="Зарегестрироваться и войти" Margin="20 10 20 0" Width="auto" Height="30" Click="Testova"></Button>
                 </StackPanel>
                 
                 <Grid>

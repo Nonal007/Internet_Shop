@@ -24,5 +24,13 @@ namespace Internet_Shop
         {
             InitializeComponent();
         }
+
+        private void Testova (object sender, EventArgs e)
+        {
+            
+            Registration registration = new Registration();
+            registration.Show();
+            this.Close();
+        }
     }
 }
