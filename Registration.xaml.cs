@@ -32,7 +32,9 @@ namespace Internet_Shop
         }
         private void Login_button (object sender, RoutedEventArgs e)
         {
-
+            Login internet_shop = new Login();
+            internet_shop.Show();
+            this.Close();
         }
     }
 }
