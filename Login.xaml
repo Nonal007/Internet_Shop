@@ -19,8 +19,8 @@
         <GroupBox Header="Поле входа" Grid.ColumnSpan="2">
             <Grid>
                 <StackPanel>
-                    <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2" x:Name="textBox_login" ></TextBox>
-                    <TextBox Width="auto" Height="20" Margin="80 10 10 0" Grid.ColumnSpan="2" x:Name="password"></TextBox>
+                    <TextBox Width="auto" Height="23" Margin="80 10 10 0" Grid.ColumnSpan="2" x:Name="textBox_login" ></TextBox>
+                    <TextBox Width="auto" Height="23" Margin="80 10 10 0" Grid.ColumnSpan="2" x:Name="password"></TextBox>
                     <Button Click="Login_buttonclick" Content="Войти" Margin="0 10 0 0" Height="26"/>
                 </StackPanel>
                 <Grid>

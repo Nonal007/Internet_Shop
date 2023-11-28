@@ -48,6 +48,11 @@ namespace Internet_Shop
 
         public bool autorization(string user_name, string user_password)
         {
+            //if(user_name.Length < 11)
+            //{
+            //    MessageBox.Show("Логин не может быть менее 11 символов");
+            //    return false;
+            //}
             DataSet dataSet = new DataSet();
             adapter.SelectCommand.Parameters["@username"].Value = user_name;
             adapter.Fill(dataSet);
