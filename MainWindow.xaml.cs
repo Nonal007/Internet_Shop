@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,9 +26,10 @@ namespace Internet_Shop
             InitializeComponent();
         }
 
-        private void Testova (object sender, EventArgs e)
+
+        private void Testova(object sender, EventArgs e)
         {
-            
+
             Registration registration = new Registration();
             registration.Show();
             this.Close();

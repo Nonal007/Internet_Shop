@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Forms;
 
 namespace Internet_Shop
 {
@@ -32,9 +33,14 @@ namespace Internet_Shop
         }
         private void Login_button (object sender, RoutedEventArgs e)
         {
-            Login internet_shop = new Login();
-            internet_shop.Show();
-            this.Close();
+            Form1 newForm = new Form1();
+            newForm.Show();
+        }
+
+        private void Registartion_button_click (object sender, RoutedEventArgs e)
+        {
+            Login registration = new Login();
+            registration.Show();
         }
     }
 }

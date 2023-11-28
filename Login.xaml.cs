@@ -23,18 +23,79 @@ namespace Internet_Shop
     /// </summary>
     public partial class Login : Window
     {
-        string conntectionString;
+        string connectionString;
+        SqlDataAdapter adapter;
 
         public Login()
         {
             InitializeComponent();
-            conntectionString = ConfigurationManager.ConnectionStrings["Internet_Shop"].ConnectionString;
+            connectionString = ConfigurationManager.ConnectionStrings["Internet_Shop"].ConnectionString;
         }
+
+        //Кнопка входа
+        private void Login_buttonclick (object sender, RoutedEventArgs e)
+        {
+                if (autorization(textBox_login.Text, password.Text))
+                {
+                    OpenMainWindow();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин или пароль");
+                }
+        }
+
+        public bool autorization(string user_name, string user_password)
+        {
+            DataSet dataSet = new DataSet();
+            adapter.SelectCommand.Parameters["@username"].Value = user_name;
+            adapter.Fill(dataSet);
+            if (dataSet.Tables[0].Rows.Count == 0)
+            {
+                return false;
+            }
+            if (dataSet.Tables[0].Rows[0]["user_password"].ToString().Trim() == user_password.Trim())
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private void OpenMainWindow ()
+        {
+
+            Registration registration = new Registration();
+            registration.Show();
+        }
+
+        public void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            SqlConnection connection = null;
+            try
+            {
+                connection = new SqlConnection(connectionString);
+                adapter = new SqlDataAdapter();
+                adapter.SelectCommand = new SqlCommand("sp_user", connection);
+                adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+                adapter.SelectCommand.Parameters.Add(new SqlParameter("@username", SqlDbType.NChar, 20));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection?.Close();
+            }
+        }
+
         public DataTable ConnectDB(string selectSQL)
         {
             DataTable dataTable = new DataTable("dataBase");                // создаём таблицу в приложении
                                                                             // подключаемся к базе данных
-            SqlConnection sqlConnection = new SqlConnection(conntectionString);
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
             sqlConnection.Open();                                           // открываем базу данных
             SqlCommand sqlCommand = sqlConnection.CreateCommand();          // создаём команду
             sqlCommand.CommandText = selectSQL;                             // присваиваем команде текст
@@ -43,4 +104,5 @@ namespace Internet_Shop
             return dataTable;
         }
     }
+
 }

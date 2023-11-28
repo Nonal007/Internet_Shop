@@ -8,10 +8,12 @@ using System.Windows;
 
 namespace Internet_Shop
 {
+
     /// <summary>
     /// Логика взаимодействия для App.xaml
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
