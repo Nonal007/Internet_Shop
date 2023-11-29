@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Internet_Shop"
         mc:Ignorable="d"
-        Title="Registration" Height="430" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+        Title="Registration" Height="430" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" >
     <Grid>
 
         <Grid Cursor="">
@@ -34,8 +34,8 @@
                         <TextBox Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
                         <TextBox Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
                         <TextBox Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
-                        <TextBox Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
-                        <TextBox Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
+                        <TextBox x:Name="password" Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
+                        <TextBox x:Name="textBox_login" Width="auto" Height="23" Margin="10 10 10 0" Grid.ColumnSpan="2"></TextBox>
                     </StackPanel>
                     <Grid>
                         <StackPanel>

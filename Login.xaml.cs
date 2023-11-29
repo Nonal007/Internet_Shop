@@ -53,14 +53,14 @@ namespace Internet_Shop
             //    MessageBox.Show("Логин не может быть менее 11 символов");
             //    return false;
             //}
-            DataSet dataSet = new DataSet();
+            DataTable dataTable = new DataTable();
             adapter.SelectCommand.Parameters["@username"].Value = user_name;
-            adapter.Fill(dataSet);
-            if (dataSet.Tables[0].Rows.Count == 0)
+            adapter.Fill(dataTable);
+            if (dataTable.Rows.Count == 0)
             {
                 return false;
             }
-            if (dataSet.Tables[0].Rows[0]["user_password"].ToString().Trim() == user_password.Trim())
+            if (dataTable.Rows[0]["user_password"].ToString().Trim() == user_password.Trim())
             {
                 return true;
             }
@@ -70,7 +70,6 @@ namespace Internet_Shop
 
         private void OpenMainWindow ()
         {
-
             Registration registration = new Registration();
             registration.Show();
         }
@@ -94,19 +93,6 @@ namespace Internet_Shop
             {
                 connection?.Close();
             }
-        }
-
-        public DataTable ConnectDB(string selectSQL)
-        {
-            DataTable dataTable = new DataTable("dataBase");                // создаём таблицу в приложении
-                                                                            // подключаемся к базе данных
-            SqlConnection sqlConnection = new SqlConnection(connectionString);
-            sqlConnection.Open();                                           // открываем базу данных
-            SqlCommand sqlCommand = sqlConnection.CreateCommand();          // создаём команду
-            sqlCommand.CommandText = selectSQL;                             // присваиваем команде текст
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand); // создаём обработчик
-            sqlDataAdapter.Fill(dataTable);                                 // возращаем таблицу с результатом
-            return dataTable;
         }
     }
 
