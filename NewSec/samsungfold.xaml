@@ -1,0 +1,92 @@
+﻿<Window x:Class="Internet_Shop.NewSec.samsungfold"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="samsungfold" Height="450" Width="315" WindowStartupLocation="CenterScreen" Cursor="" >
+    <Grid>
+        <Border Margin="5" Grid.Column="0" Background="#FFD34EBA" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> Samsung Galaxy Z Flip Black
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                
+Samsung Galaxy Z Flip – оригинальный смартфон-раскладушка с гибким экраном. В сложенном положении он без труда помещается в кармане или женской сумочке, но стоит развернуть его, и вы получаете в своё распоряжение 6,7-дюймовый дисплей. Он изготовлен по технологии Dynamic AMOLED, а разрешение составляет 2636 х 1080 пикселей, поэтому изображение будет детализированным и предельно реалистичным. Дополнительный внешний 1,1-дюймовый экран поможет быстро узнать, кто вам звонит.                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/samsungflip.png" Height="240"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/samsungflipback.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" Cursor="" />
+
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                <LineBreak></LineBreak>
+ФОТОГРАФИРУЙТЕ ДНЁМ И НОЧЬЮ
+Камера, состоящая из двух 12-мегапиксельных модулей, позволяет вести съёмку под необычными ракурсами. С её помощью вы сделаете отличные кадры при любом освещении, а при необходимости механизм фиксации дисплея выступит в роли штатива – например для гиперлапса. «Фронталка» с матрицей 10 Мп придётся по душе любителям селфи.
+
+ФАНТАСТИЧЕСКАЯ ПРОИЗВОДИТЕЛЬНОСТЬ
+Благодаря восьмиядерному процессору Snapdragon 855+ и 12 Гб оперативной памяти девайс справится с любыми, даже самыми сложными задачами. Требовательные игры, ресурсоёмкие приложения – ему всё по плечу. За счёт аккумулятора на 3300 мАч и функции энергосбережения, которой управляет искусственный интеллект, вам с утра до вечера не придётся беспокоиться о подзарядке.
+
+ВЫБЕРИТЕ ПОДХОДЯЩИЙ СПОСОБ РАЗБЛОКИРОВКИ
+На боковой грани находится сканер отпечатка пальца. Также в этой модели предусмотрена технология распознавания лица. Но вы можете предпочесть и традиционные варианты – пароль или PIN-код.                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="">
+                                <LineBreak></LineBreak>
+                                Производитель:  Samsung
+                                <LineBreak></LineBreak>
+                                Модель:  
+Galaxy Z Flip
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 13
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  5 000
+                                <LineBreak></LineBreak>
+                                Тип процессора:  Qualcomm Snapdragon 8 Gen2
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Adreno 740
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  12 DDR5
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "6,8"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  1440 x 3088
+<LineBreak></LineBreak>
+                                Dynamic AMOLED 2X
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  
+200
+<LineBreak></LineBreak>
+                                Камера спереди (Мп):  20
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+</Window>

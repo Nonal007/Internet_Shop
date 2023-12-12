@@ -1,0 +1,86 @@
+﻿<Window x:Class="Internet_Shop.NewSec.samsungs23"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="samsungs23" Height="450" Width="315" WindowStartupLocation="CenterScreen" Cursor="">
+    <Grid>
+        <Border Margin="5" Grid.Column="0" Background="#FF81F9FF" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> Samsung Galaxy S23 Ultra
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                
+Смартфон Samsung Galaxy S23 Ultra Black — модель с безрамочным экраном диагональю 6,8 дюйма, выполненным по технологии Dynamic AMOLED 2X. Разрешение — 3088x1440 пикселей, частота обновления — 120 Гц. Отображается 16 млн цветов. Надежную защиту дисплея обеспечивает стекло Corning Gorilla Glass 8. Можно использовать перо S-Pen.
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/samsungs23.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/samsungs23back.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Высокую производительность девайса гарантируют восьмиядерный процессор Qualcomm Snapdragon 8 Gen 2 и 12 Гб оперативной памяти. Для установки приложений, хранения изображений, музыки видео и документов используется хранилище объемом 256 Гб.
+В устройство можно установить две nano-SIM, кроме того, поддерживается eSIM. Смартфон работает в сетях вплоть до 5G. Навигационные системы GPS, ГЛОНАСС, Beidou, Galileo и QZSS дадут возможность быстро сориентироваться в незнакомом месте, проложить кратчайший маршрут до нужной точки. Встроенные модули Wi-Fi 802.11 a/b/g/n/ac/ax и Bluetooth 5.3 обеспечивают доступ в Сеть и позволяют обмениваться данными с совместимыми устройствами. Авторизация может производиться на основе отпечатка пальца (сенсор расположен на передней панели) и распознавания лица.
+Основная камера представлена модулем разрешением 200 Мп, 10 Мп, 12 Мп, 10 Мп. Установлена оптическая система стабилизации, приблизить объекты можно при помощи оптического (3Х и 10 Х) и цифрового зума (до 100Х). Фронтальная камера на 12 Мп оснащена автофокусом для создания эффектных автопортретов.</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="">
+                                <LineBreak></LineBreak>
+                                Производитель:  Samsung
+                                <LineBreak></LineBreak>
+                                Модель:  
+Galaxy S23 Ultra
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 13
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  5 000
+                                <LineBreak></LineBreak>
+                                Тип процессора:  Qualcomm Snapdragon 8 Gen2
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Adreno 740
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  12 DDR5
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "6,8"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  1440 x 3088
+<LineBreak></LineBreak>
+                                Dynamic AMOLED 2X
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  
+200
+<LineBreak></LineBreak>
+                                Камера спереди (Мп):  20
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+</Window>

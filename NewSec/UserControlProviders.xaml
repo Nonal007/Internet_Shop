@@ -1,0 +1,406 @@
+﻿<UserControl x:Class="Internet_Shop.NewSec.UserControlProviders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+
+        </Grid.RowDefinitions>
+        <Border Margin="5" Grid.Column="0" Background="#FFD4E436" VerticalAlignment="Stretch" CornerRadius="12" x:Name="samsunga34bord" >
+            <StackPanel x:Name="dddsfdsdf" >
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> Samsung Galaxy A34 128GB
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Смартфон Samsung Galaxy A34 Awesome Graphite обладает большим экраном диагональю 6,6 дюйма разрешением 2340х1080 пикселей, на котором комфортно играть, смотреть фильмы и видеоролики, общаться в социальных сетях, решать рабочие задачи. Технология Super AMOLED обеспечивает высокую яркость (до 1000 нит)
+
+                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Samsunga43.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="Image1" >
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+                </Image>
+
+            </StackPanel>
+
+        </Border>
+        <Border Margin="5" Grid.Column="1" Background="#FF81F9FF" VerticalAlignment="Stretch" CornerRadius="12">
+            <StackPanel x:Name="samsungs23bord">
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> Samsung Galaxy S23 Ultra
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Смартфон Samsung Galaxy S23 Ultra Black — модель с безрамочным экраном диагональю 6,8 дюйма, выполненным по технологии Dynamic AMOLED 2X. Разрешение — 3088x1440 пикселей, частота обновления — 120 Гц. Отображается 16 млн цветов. Надежную защиту дисплея обеспечивает стекло Corning Gorilla Glass 8. Можно использовать перо S-Pen.
+                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/SamsungS23.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="samsungs23pic" >
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+        </Border>
+        <Border Margin="5" Grid.Column="2" Background="#FF144BC3" VerticalAlignment="Stretch" CornerRadius="12">
+            <StackPanel x:Name="samsungzfoldbord" >
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> Samsung Galaxy Z Fold5
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Складной смартфон Samsung Galaxy Z Fold5 Phantom Black (SM-F946B) оснащен 7,6-дюймовым экраном разрешением 2176x1812 пикселей, обладающим пиковой яркостью 1750 нит, что позволит смотреть кино или играть даже под солнечными лучами — изображение не поблекнет. Внешний AMOLED-экран обладает диагональю 6,2 дюйма и разрешением 2316x904 пикселей, он отображает множество актуальной информации и предоставляет к ней быстрый доступ. Оба экрана защищены прочным стеклом Corning Gorilla Glass Victus 2.
+
+                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Samsungfold.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="samsungzfoldpic" >
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+        </Border>
+        <Border Margin="5" Grid.Column="3" Background="#FFD34EBA" VerticalAlignment="Stretch" CornerRadius="12">
+            <StackPanel x:Name="samsungzflipp" >
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> Samsung Galaxy Z Flip Black
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Samsung Galaxy Z Flip – оригинальный смартфон-раскладушка с гибким экраном. В сложенном положении он без труда помещается в кармане или женской сумочке, но стоит развернуть его, и вы получаете в своё распоряжение 6,7-дюймовый дисплей. Он изготовлен по технологии Dynamic AMOLED, а разрешение составляет 2636 х 1080 пикселей, поэтому изображение будет детализированным и предельно реалистичным. Дополнительный внешний 1,1-дюймовый экран поможет быстро узнать, кто вам звонит.
+                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Samsungflip.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both">
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+        </Border>
+        <Button Click="SamsungA34_click" Grid.Row="1" Grid.Column="0" x:Name="SamsungA34" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="samsungs23_click" Grid.Row="1" Grid.Column="1" x:Name="Samsungs23" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="samsungfold_Click" Grid.Column="2" Grid.Row="1" x:Name="samsungfold" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="samsungflip_Click" Grid.Column="3" Grid.Row="1" x:Name="samsungflip" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="SamsungA34Buy_click" x:Name="SamsungA34Buy" Grid.Row="2" Grid.Column="0" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="SamsungS23Buy_click" x:Name="SamsungS23Buy" Grid.Row="2" Grid.Column="1" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="SamsungZFold_click" x:Name="SamsungZFoldBuy" Grid.Row="2" Grid.Column="2" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="SamsungZFlipBuy_click" x:Name="SamsungZFlipBuy" Grid.Row="2" Grid.Column="3" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="SamsungZFlipBuyOUT_click" x:Name="SamsungZFlipBuyOUT" Grid.Row="3" Grid.Column="3" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="SamsungZFoldBuyOUT_click" x:Name="SamsungZFoldBuyOUT" Grid.Row="3" Grid.Column="2" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="Samsungs23BuyOUT_click" x:Name="Samsungs23BuyOUT" Grid.Row="3" Grid.Column="1" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="samsunga32BuyOUT_click" x:Name="samsunga32BuyOUT" Grid.Row="3" Grid.Column="0" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+
+
+
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="hyyp" Grid.Row="0" Grid.Column="0" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Samsung Galaxy A34
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  x:Name="hyyp1" FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="samsungs23bron" Grid.Row="0" Grid.Column="1" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Samsung Galaxy S23 Ultra
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="samsungszfoldbron" Grid.Row="0" Grid.Column="2" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Samsung Galaxy Z Fold 5
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="samsungzflipbord" Grid.Row="0" Grid.Column="3" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Samsung Galaxy Z Flip
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>

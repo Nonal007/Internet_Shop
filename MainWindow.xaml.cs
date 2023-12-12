@@ -26,6 +26,10 @@ namespace Internet_Shop
             InitializeComponent();
         }
 
+        internal void SwitchScreen(UserControl screen)
+        {
+            throw new NotImplementedException();
+        }
 
         private void Testova(object sender, EventArgs e)
         {

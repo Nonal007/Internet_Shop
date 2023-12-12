@@ -1,0 +1,414 @@
+﻿<UserControl x:Class="Internet_Shop.NewSec.UserControlCustomers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="800" Cursor="">
+    <Grid Cursor="">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <!--<RowDefinition Height="*"/>-->
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+
+
+        </Grid.RowDefinitions>
+        <Border Margin="5" Grid.Column="0" Background="#FFC5C5C5" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <StackPanel x:Name="nexus6pborrd">
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> HUAWEI Nexus 6P 64GB Silver
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">Смартфон Huawei Nexus 6P 64GB - это отличный вариант для любителей высококачественного видео и современных трёхмерных игр. Он оснащён 5,7-дюймовым дисплеем с разрешением 2560 x 1400. Изображение на нём выглядит очень реалистичным благодаря применению технологии Super AMOLED, которая делает картинку яркой и контрастной.</TextBlock>
+                    </Label.Content> 
+                </Label>
+                <Image Source="png/Nexus6p.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="nexus6ppic">
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+           
+        </Border>
+
+        <Border Margin="5" Grid.Column="1" Background="#FF7C54A0" VerticalAlignment="Stretch" CornerRadius="12">
+
+            <StackPanel x:Name="nexus5bord">
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> LG NEXUS 5 16Gb Black
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Долгоиграющая мощь
+
+Невероятно быстрый 4G интернет и Wi-Fi вкупе с инновационным процессором Snapdragon™ 800 и ОС Android 4.4 KitKat позволят Вам наслаждаться играми, интернет-серфингом и многозадачностью без остановки. Вы сможете делать это весь день напролет благодаря батарее емкостью 2300 мАч.                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Nexus5.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="nexus5pic">
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+
+        </Border>
+        <Border Margin="5" Grid.Column="2" Background="#FF83CD80" VerticalAlignment="Stretch" CornerRadius="12">
+
+            <StackPanel x:Name="nexus7bord">
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> ASUS Nexus 7
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Технология ASUS TruVivid делает изображение на экране Nexus 7 ярким и красочным, а IPS-панель с разрешением 1280x800 пикселей обеспечивает широкие углы обзора (178°). Устойчивое к царапинам защитное стекло Corning Fit поможет Nexus 7 с честью справиться с любыми тяготами мобильной жизни. Обладая тонким (всего 10,5 мм) и легким (340 г) корпусом, Nexus 7 ничуть не более обременителен в дороге, чем обычная бумажная книжка, однако значительно превосходит ее по функциональности. Ведь Nexus 7 - это настоящий портал в огромный мир цифровых развлечений!                        
+                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Nexus7.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="nexus7pic">
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+
+        </Border>
+        <Border Margin="5" Grid.Column="3" Background="#FFEE9246" VerticalAlignment="Stretch" CornerRadius="12">
+            <StackPanel x:Name="nexus4bord">
+                <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                    <Label.Effect>
+                        <DropShadowEffect/>
+                    </Label.Effect> LG Nexus 4 16Gb
+                </Label>
+                <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                    <Label.Content>
+                        <TextBlock TextWrapping="Wrap">
+Софтверный гигант Google, по совместительству создатель самой распространенной на сегодняшний день мобильной платформы Android, в свое время задался целью выпустить на рынок особый продукт — собственный фирменный смартфон. Это решение было продиктовано стремлением продемонстрировать рынку на живом примере то, как работает чистая, незамутненная вмешательством сторонних производителей мобильная операционная система Android.                        </TextBlock>
+                    </Label.Content>
+                </Label>
+                <Image Source="png/Nexus4.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" x:Name="nexus4pic">
+
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="5" Color="Black" Direction="315" Opacity="1" RenderingBias="Performance" ShadowDepth="5"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+
+
+                </Image>
+
+            </StackPanel>
+
+        </Border>
+
+        <!--<Frame x:Name="MyFrame" Background="AliceBlue"></Frame>-->
+        <!--<Image Source="png/Nexus6p.png" Height="160" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />-->
+        <Button Click="Nexus6p_Click" Grid.Row="1" Grid.Column="0" x:Name="Nexus6p" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="Nexus5_Click" Grid.Column="1" Grid.Row="1" x:Name="Nexus5" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="Nexus7_Click" Grid.Column="2" Grid.Row="1" x:Name="Nexus7" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="Nexus4_Click" Grid.Column="3" Grid.Row="1" x:Name="Nexus4" Content="Больше информации" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" />
+        <Button Click="nexus6pbuy_click" x:Name="nexus6pbuy" Grid.Column="0" Grid.Row="2" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus5buy_click" x:Name="nexus5buy" Grid.Column="1" Grid.Row="2" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus7buy_click" x:Name="nexus7buy" Grid.Column="2" Grid.Row="2" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus4buy_click" x:Name="nexus4buy" Grid.Column="3" Grid.Row="2" Content="Заказать" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus4buyOUT_click" x:Name="nexus4buyOUT" Grid.Column="3" Grid.Row="3" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus7buyOUT_click" x:Name="nexus7buyOUT" Grid.Column="2" Grid.Row="3" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus5buyOUT_click" x:Name="nexus5buyOUT" Grid.Column="1" Grid.Row="3" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+        <Button Click="nexus6pbuyOUT_click" x:Name="nexus6pbuyOUT" Grid.Column="0" Grid.Row="3" Content="Отменить заказ" Width="auto" Cursor="Hand" Margin="5, 0, 5, 0" ></Button>
+
+
+
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="nexus6pbord" Grid.Row="0" Grid.Column="0" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Huawei Nexus6P
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="nexus5sell" Grid.Row="0" Grid.Column="1" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            LG Nexus 5
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="nexus7sell" Grid.Row="0" Grid.Column="2" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            Asus Nexus 7
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" x:Name="nexus4sell" Grid.Row="0" Grid.Column="3" >
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  >
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" >
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="20.988"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                            LG Nexus 4
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                                    <LineBreak></LineBreak>
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+
+            <Label HorizontalAlignment="Center" FontSize="36"  FontFamily="Bahnschrift Condensed" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"  >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-20.722"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Content>
+                    <TextBlock TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" >
+                            Заказ забронирован!
+                    </TextBlock>
+
+                </Label.Content>
+            </Label>
+
+
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>

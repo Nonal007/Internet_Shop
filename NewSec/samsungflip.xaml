@@ -1,0 +1,86 @@
+﻿<Window x:Class="Internet_Shop.NewSec.samsungflip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="samsungfold" Height="450" Width="315" WindowStartupLocation="CenterScreen" Cursor="">
+    <Grid>
+        <Border Margin="5" Grid.Column="0" Background="#FF144BC3" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> Samsung Galaxy Z Fold5
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                
+Складной смартфон Samsung Galaxy Z Fold5 Phantom Black (SM-F946B) оснащен 7,6-дюймовым экраном разрешением 2176x1812 пикселей, обладающим пиковой яркостью 1750 нит, что позволит смотреть кино или играть даже под солнечными лучами — изображение не поблекнет. Внешний AMOLED-экран обладает диагональю 6,2 дюйма и разрешением 2316x904 пикселей, он отображает множество актуальной информации и предоставляет к ней быстрый доступ. Оба экрана защищены прочным стеклом Corning Gorilla Glass Victus 2.                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/samsungfold.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/samsungfoldback.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Восьмиядерный процессор Qualcomm Snapdragon 8 Gen 2 и 12 Гб оперативной памяти обеспечивают высокую производительность, которая позволит играть в современные игры без малейших подвисаний и работать одновременно в трех приложениях. Панель управления поддерживает до 12 приложений. Перо S Pen упростит управление и позволит быстро перемещать элементы, рисовать, делать заметки, словно обычной ручкой.
+Объем встроенной памяти для установки приложений и хранения личных данных — 512 Гб. Беспроводные технологии представлены встроенными модулями Wi-Fi 802.11 a/b/g/n/ac/ax, Bluetooth 5.0, NFC.
+Основная камера тройная: 50 Мп (широкоугольная), 12 Мп (ультраширокоугольная) и 10 Мп (телеобъектив), максимальное разрешение видеосъемки — 8К (7680x4320 пикселей). Даже в сложных условиях получится качественный результат — доступна оптическая и цифровая стабилизация. Приблизить объект позволит зум 10х. За селфи и общение по видеосвязи отвечают фронтальная камера на 10 Мп и камера на 4 Мп, врезанная в экран. Сканер отпечатка пальца встроен в боковую панель.                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="">
+                                <LineBreak></LineBreak>
+                                Производитель:  Samsung
+                                <LineBreak></LineBreak>
+                                Модель:  
+Galaxy Z Fold 5
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 13
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  5 000
+                                <LineBreak></LineBreak>
+                                Тип процессора:  Qualcomm Snapdragon 8 Gen2
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Adreno 740
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  12 DDR5
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "6,8"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  1440 x 3088
+<LineBreak></LineBreak>
+                                Dynamic AMOLED 2X
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  
+200
+<LineBreak></LineBreak>
+                                Камера спереди (Мп):  20
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+</Window>

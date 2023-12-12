@@ -114,7 +114,9 @@
     <Reference Include="ShowMeTheXAML, Version=2.0.0.62, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ShowMeTheXAML.2.0.0\lib\net472\ShowMeTheXAML.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8.1\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -248,6 +250,50 @@
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewLogin.xaml.cs">
+      <DependentUpon>NewLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewRegistartion.xaml.cs">
+      <DependentUpon>NewRegistartion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\ItemMenu.cs" />
+    <Compile Include="NewSec\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\Nexus4.xaml.cs">
+      <DependentUpon>Nexus4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\Nexus5.xaml.cs">
+      <DependentUpon>Nexus5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\Nexus6p.xaml.cs">
+      <DependentUpon>Nexus6p.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\Nexus7.xaml.cs">
+      <DependentUpon>Nexus7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\SamsungA34.xaml.cs">
+      <DependentUpon>SamsungA34.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\samsungflip.xaml.cs">
+      <DependentUpon>samsungflip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\samsungfold.xaml.cs">
+      <DependentUpon>samsungfold.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\samsungs23.xaml.cs">
+      <DependentUpon>samsungs23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\SubItem.cs" />
+    <Compile Include="NewSec\UserControlCustomers.xaml.cs">
+      <DependentUpon>UserControlCustomers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\UserControlMenuItem.xaml.cs">
+      <DependentUpon>UserControlMenuItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewSec\UserControlProviders.xaml.cs">
+      <DependentUpon>UserControlProviders.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
@@ -270,6 +316,62 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NewLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewRegistartion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\Nexus4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\Nexus5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\Nexus6p.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\Nexus7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\SamsungA34.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\samsungflip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\samsungfold.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\samsungs23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\UserControlCustomers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\UserControlMenuItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewSec\UserControlProviders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Registration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -315,6 +417,25 @@
       <DependentUpon>Internet_Shop.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="NewSec\media-markt.png" />
+    <Resource Include="NewSec\png\samsungflip.png" />
+    <Resource Include="NewSec\png\samsungflipback.png" />
+    <Resource Include="NewSec\png\samsungfold.png" />
+    <Resource Include="NewSec\png\samsungfoldback.png" />
+    <Resource Include="NewSec\png\SamsungS23.png" />
+    <Resource Include="NewSec\png\SamsungS23back.png" />
+    <Resource Include="NewSec\png\SamsungA34back.png" />
+    <Resource Include="NewSec\png\SamsungA34front.png" />
+    <Resource Include="NewSec\png\Samsunga43.png" />
+    <Resource Include="NewSec\png\Nexus4.png" />
+    <Resource Include="NewSec\png\Nexus4back.png" />
+    <Resource Include="NewSec\png\Nexus7.png" />
+    <Resource Include="NewSec\png\Nexus7back.png" />
+    <Resource Include="NewSec\png\Nexus5back.png" />
+    <Resource Include="NewSec\png\Nexus5.png" />
+    <Resource Include="NewSec\png\Nexus6pback.png" />
+    <Resource Include="NewSec\png\Nexus6p.png" />
+    <Resource Include="NewSec\png\Nexus6p.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
@@ -328,6 +449,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.4.8.1\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.8.1\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

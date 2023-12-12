@@ -1,0 +1,100 @@
+﻿<Window x:Class="Internet_Shop.NewSec.Nexus7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="Nexus7" Height="450" Width="370" WindowStartupLocation="CenterScreen" Cursor="">
+    <Grid>
+        <Border Margin="5" Grid.Column="1" Background="#FF83CD80" VerticalAlignment="Stretch" CornerRadius="12">
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> ASUS Nexus 7
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Технология ASUS TruVivid делает изображение на экране Nexus 7 ярким и красочным, а IPS-панель с разрешением 1280x800 пикселей обеспечивает широкие углы обзора (178°). Устойчивое к царапинам защитное стекло Corning Fit поможет Nexus 7 с честью справиться с любыми тяготами мобильной жизни. Обладая тонким (всего 10,5 мм) и легким (340 г) корпусом, Nexus 7 ничуть не более обременителен в дороге, чем обычная бумажная книжка, однако значительно превосходит ее по функциональности. Ведь Nexus 7 - это настоящий портал в огромный мир цифровых развлечений!
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/Nexus7.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/Nexus7back.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Новая версия Android</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Nexus 7 использует новейшую версию самой популярной в мире мобильной платформы Android, которая стала еще удобнее, красочней и быстрее, чем раньше. Он поставляется с предустановленным программным обеспечением Google, включая Gmail, Chrome, Google+ и YouTube. Таким образом, Nexus 7 - это все лучшее от Google в одном красивом и удобном в использовании гаджете!                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">Поддержка Google Play
+                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Nexus 7 предназначен для использования совместно с магазином приложений Google Play, в котором можно найти сотни тысяч всевозможных программ, а также обширную коллекцию электронных книг, миллионы песен, тысячи фильмов и телевизионных передач, цифровые журналы и многое другое!                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <LineBreak></LineBreak>
+                                Производитель:  Google
+                                <LineBreak></LineBreak>
+                                Модель:  Nexus 7
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 5.1
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  
+4 325
+                                <LineBreak></LineBreak>
+                                Тип процессора:  NVIDIA Tegra 3 T30L
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  NVIDIA ULP GeForce GPU
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  1 DDR3
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "7"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  800 x 1280
+<LineBreak></LineBreak>
+                                Тип экрана:  IPS
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  1,2
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+    </Grid>
+</Window>

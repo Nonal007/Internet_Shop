@@ -1,0 +1,89 @@
+﻿<Window x:Class="Internet_Shop.NewSec.SamsungA34"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="SamsungA34" Height="450" Width="315" WindowStartupLocation="CenterScreen" Cursor="">
+    <Grid>
+        <Border Margin="5" Grid.Column="0" Background="#FFD4E436" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> Samsung Galaxy A34
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                
+Смартфон Samsung Galaxy A34 Awesome Graphite обладает большим экраном диагональю 6,6 дюйма разрешением 2340х1080 пикселей, на котором комфортно играть, смотреть фильмы и видеоролики, общаться в социальных сетях, решать рабочие задачи. Технология Super AMOLED обеспечивает высокую яркость (до 1000 нит) и контрастность, даже при ярком солнце картинка будет различима. Частота обновления 120 Гц способствует плавности отображения любого динамичного контента. Экран покрывает прочное стекло Corning Gorilla Glass 5.                            
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/samsunga43.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/SamsungA34back.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> НИКАКИХ ОГРАНИЧЕНИЙ</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Аппаратная часть представлена восьмиядерным смартфоном Mediatek Dimensity 1080 частотой 2,6 ГГц и 6 Гб оперативной памяти. Для хранения информации предусмотрены 128 Гб встроенной памяти, которую можно расширить, установив карту microSD (до 1024 Гб). Возможна работа с двумя SIM-картами формата nano. Поддерживаются современные сети вплоть до 5G, выход в интернет обеспечивает встроенный модуль Wi-Fi, синхронизацию и обмен данными с другими девайсами — Bluetooth версии 5.3. Сориентироваться в любой незнакомом месте и проложить маршрут помогут навигационные системы GPS, ГЛОНАСС, Beidou, Galileo и QZSS.                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <LineBreak></LineBreak>
+                                Производитель:  Samsung
+                                <LineBreak></LineBreak>
+                                Модель:  Galaxy A34
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 13
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  5 000
+                                <LineBreak></LineBreak>
+                                Тип процессора:  MediaTek Dimensity 1080
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Mali-G68 MC4
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  6 DDR4X
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "6,6"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  1080 x 2340
+<LineBreak></LineBreak>
+                                Тип экрана:  
+Super AMOLED
+<LineBreak></LineBreak>
+                                Камера сзади:  f/1.8, (wide), 1/1.20", 1.0µm, PDAF, OIS
+<LineBreak></LineBreak>
+                                Камера спереди:  f/2.2, 123˚ (ultrawide), 1.12µm
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+</Window>

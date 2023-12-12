@@ -37,7 +37,9 @@ namespace Internet_Shop
         }
         private void Back_button (object sender, RoutedEventArgs e)
         {
-            
+
+
+
             MainWindow internet_Shop = new MainWindow();
             internet_Shop.Show();
             this.Close();

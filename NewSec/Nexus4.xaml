@@ -1,0 +1,70 @@
+﻿<Window x:Class="Internet_Shop.NewSec.Nexus4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="Nexus4" Height="450" Width="370" WindowStartupLocation="CenterScreen" Cursor="">
+    <Grid>
+        <Border Margin="5" Grid.Column="1" Background="#FFEE9246" VerticalAlignment="Stretch" CornerRadius="12">
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> LG Nexus 4 16Gb
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Софтверный гигант Google, по совместительству создатель самой распространенной на сегодняшний день мобильной платформы Android, в свое время задался целью выпустить на рынок особый продукт — собственный фирменный смартфон. Это решение было продиктовано стремлением продемонстрировать рынку на живом примере то, как работает чистая, незамутненная вмешательством сторонних производителей мобильная операционная система Android.</TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/Nexus4.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/Nexus4back.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="">
+                                <LineBreak></LineBreak>
+                                Производитель:  Google
+                                <LineBreak></LineBreak>
+                                Модель:  Nexus 4
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 5.1
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  
+2 100
+                                <LineBreak></LineBreak>
+                                Тип процессора:  Snapdragon S4 Pro 
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Adreno 320
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  2 DDR3
+                                <LineBreak></LineBreak>
+                                Размер экрана:  "4,7"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  768 x 1280
+<LineBreak></LineBreak>
+                                Тип экрана:  IPS+
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  1,2
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+    </Grid>
+</Window>

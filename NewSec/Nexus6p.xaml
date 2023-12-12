@@ -1,0 +1,105 @@
+﻿<Window x:Class="Internet_Shop.NewSec.Nexus6p"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+        Title="Nexus6p" Height="450" Width="315" WindowStartupLocation="CenterScreen" Cursor="">
+    
+    <Grid>
+        <!--<Border Margin="5" Grid.Column="0" Background="#FFC5C5C5" VerticalAlignment="Stretch" CornerRadius="12"></Border>>-->
+        <!--<Border Margin="5" Grid.Column="1" Background="#FFC5C5C5" VerticalAlignment="Stretch" CornerRadius="12">
+
+        </Border>-->
+        <Border Margin="5" Grid.Column="0" Background="#FFC5C5C5" VerticalAlignment="Stretch" CornerRadius="12"   >
+            <ScrollViewer>
+                <StackPanel>
+                    <Label FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" FontSize="18">
+                        <Label.Effect>
+                            <DropShadowEffect/>
+                        </Label.Effect> HUAWEI Nexus 6P 64GB Silver
+                    </Label>
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular">
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">Смартфон Huawei Nexus 6P 64GB - это отличный вариант для любителей высококачественного видео и современных трёхмерных игр. Он оснащён 5,7-дюймовым дисплеем с разрешением 2560 x 1400. Изображение на нём выглядит очень реалистичным благодаря применению технологии Super AMOLED, которая делает картинку яркой и контрастной.</TextBlock>
+                        </Label.Content>
+                    </Label>
+                    <Image Source="png/Nexus6p.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" />
+                    <Image Source="png/Nexus6pback.png" Height="240" Grid.Row="1"  Stretch="Uniform" StretchDirection="Both" Margin="0 20 0 0" />
+                    
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> НИКАКИХ ОГРАНИЧЕНИЙ </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+                                Современные игры? Профессиональные приложения? Видео в сверхвысоком разрешении? Девайс справится со всеми этими задачами одновременно благодаря применению восьмиядерного процессора и оперативной памяти с объёмом 3 Гб.
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> УДОБСТВО И БЕЗОПАСНОСТЬ</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap">
+Встроенный модуль NFC может использоваться для быстрой синхронизации с другими устройствами, а также для проведения платежей. При этом не стоит беспокоиться о попадании телефона в руки постороннего человека - сканер отпечатка пальца защитит как банковские счета пользователя, так и другие личные данные.                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap"> Характеристики:</TextBlock>
+                        </Label.Content>
+                    </Label>
+
+                    <Label HorizontalAlignment="Center" FontSize="14" FontWeight="Regular" Margin="0 -20 0 0" >
+                        <Label.Content>
+                            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <LineBreak></LineBreak>
+                                Производитель:  Google
+                                <LineBreak></LineBreak>
+                                Модель:  Nexus 6P
+                                <LineBreak></LineBreak>
+                                Операционная система:  Android 8.1
+                                <LineBreak></LineBreak>
+                                Емкость аккум. (мА·ч):  3 450
+                                <LineBreak></LineBreak>
+                                Тип процессора:  Qualcomm Snapdragon 810 MSM8994
+                                <LineBreak></LineBreak>
+                                Видеоускоритель:  Adreno 430
+                                <LineBreak></LineBreak>
+                                Оперативная память (Гб):  3 DDR3
+                                <LineBreak></LineBreak>
+                                Размер экрана:  5,7"
+<LineBreak></LineBreak>
+                                Разрешение экрана (px):  1440 x 2560
+<LineBreak></LineBreak>
+                                Тип экрана:  AMOLED
+<LineBreak></LineBreak>
+                                Камера сзади (Мп):  12,3
+<LineBreak></LineBreak>
+                                Камера спереди (Мп):  8
+                            </TextBlock>
+                        </Label.Content>
+                    </Label>
+
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+
+
+    </Grid>
+</Window>

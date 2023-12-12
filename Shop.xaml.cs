@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Internet_Shop
@@ -22,6 +23,11 @@ namespace Internet_Shop
         public Shop()
         {
             InitializeComponent();
+        }
+
+        private void item0_Selected(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

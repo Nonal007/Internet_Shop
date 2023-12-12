@@ -1,0 +1,72 @@
+﻿<Window x:Class="Internet_Shop.NewSec.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Internet_Shop.NewSec"
+        mc:Ignorable="d"
+                xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        
+        
+
+         Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" WindowState="Maximized">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <materialDesign:ColorZone Mode="PrimaryMid" Grid.ColumnSpan="2" HorizontalAlignment="Stretch">
+            <Grid x:Name="BorderGrid_color" Background="{StaticResource PrimaryHueMidBrush}">
+                <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" HorizontalAlignment="Right" StaysOpen="False" Margin="10">
+                    <StackPanel>
+
+                        <StackPanel Margin="16 10 0 6" Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock  VerticalAlignment="Center" Text="Тёмная тема" />
+                            <ToggleButton Cursor="Hand" ToolTip="Enable Dark Mode" Margin="12 0 8 0" x:Name="themeToggle" IsChecked="{Binding IsDarkTheme}" Click="toggleTheme"/>
+                        </StackPanel>
+
+                        <Button x:Name="Btn_Exit" ToolTip="Close Application" Content="Закрыть приложение" Click="exitApp"/>
+
+                    </StackPanel>
+
+                </materialDesign:PopupBox>
+            </Grid>
+        </materialDesign:ColorZone>
+        <Grid HorizontalAlignment="Stretch" Grid.Row="1" x:Name="Grid_color" Background="{StaticResource PrimaryHueMidBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="326*"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="ImageBack_color" Grid.Row="0" Background="{StaticResource PrimaryHueMidBrush}">
+                <Image Source="media-markt.png" />
+                <Ellipse Width="200" Height="200" VerticalAlignment="Bottom" Fill="#349fda" Margin="-105,0,155,-201" Opacity="0.6"/>
+                <Ellipse Width="300" Height="300" VerticalAlignment="Bottom" Fill="#0288d1" Margin="-90,0,40,-485" Opacity="0.3"/>
+                <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#015f92" Margin="-205,0,55,-708" Opacity="0.3"/>
+                <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#015f92" Margin="-340,0,190,-501" Opacity="0.3"/>
+                <Ellipse Width="250" Height="250" VerticalAlignment="Bottom" Fill="#349fda" Margin="175,0,-175,-335"/>
+                <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#0288d1" Margin="0 0 0 -850" Opacity="0.8"/>
+                <Ellipse Width="400" Height="400" VerticalAlignment="Bottom" Fill="#015f92" Margin="-400 0 0 -1050" Opacity="0.8"/>
+
+
+            </Grid>
+            <ScrollViewer x:Name="ScrollViewerColor" HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1">
+
+                <StackPanel  x:Name="Menu" Margin="10">
+
+                </StackPanel>
+
+            </ScrollViewer>
+        </Grid>
+        <StackPanel Background="GhostWhite" x:Name="StackPanelMain" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch">
+
+        </StackPanel>
+
+    </Grid>
+</Window>

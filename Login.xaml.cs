@@ -70,8 +70,8 @@ namespace Internet_Shop
 
         private void OpenMainWindow ()
         {
-            Registration registration = new Registration();
-            registration.Show();
+            NewSec.MainWindow MainWindow = new NewSec.MainWindow();
+            MainWindow.Show();
         }
 
         public void Window_Loaded(object sender, RoutedEventArgs e)
