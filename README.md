@@ -7,5 +7,4 @@
 
 ![Desktop_231213_1736_2](https://github.com/Nonal007/Internet_Shop/assets/38104472/1cdcbc29-4a23-4fe6-a11a-727a57713abc)
 
-
 ![Desktop_231213_1737](https://github.com/Nonal007/Internet_Shop/assets/38104472/aee3f29a-6c90-4146-a449-e11c1a0023f3)
